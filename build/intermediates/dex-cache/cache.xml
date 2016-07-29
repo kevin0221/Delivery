@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2e53c38de9a3408739d447f21c23e925a28dceee">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/instant-run_c023b145ad0712dbfccd1567a0bfdc302d370b4a.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_18ff267b92691f6fdbb15ca29d8f5c7c12ff77ad.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_6f78224a9953b6b3b9f5fe5bf94e2311f4fc595d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a8d388e1abb174266b7d5b73d00e646115394047">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_9736b6903709177c9b1c63288f751f5ee6e69f20.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_5bfd41480f6ced24dec2279c3081ad7c868a98b7.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_f53185184ee085b7c3328e3b3068b8980cd434cb.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/Working/Delivery/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_f3caf5c63b4bd8780fa9f3bb2633734597eff0d0.jar" />
+    </item>
+    <item
+        jar="/Users/beauty/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_a4a63322a93c7f29b8222c9f09d1f46571deca1a.jar" />
+    </item>
+
+</items>
