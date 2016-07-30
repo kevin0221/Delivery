@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Delivery</string>
+    <string name="workout_title">Workout Title</string>
+    <string name="if_scheduled_date_here">IF SCHEDULED DATE HERE</string>
+    <string name="workout_content">Run your new PR on this flat marathon course through the iconic city of Lisbon. This gorgeous marathon is broken up into 4 mile segments. So you can either run parts of it, or run its entirety in one day. Explore everywhere from the back roads of Lisbon to the coastal highways of Portugal as you check another marathon off your bucket list.</string>
+    
+    <string name="calorie_burn">CALORIE BURN</string>
+    <string name="estimated_time">ESTIMATED TIME</string>
+    <string name="distance">DISTANCE</string>
+    <string name="elevation_gain">ELEVATION GAIN</string>
+
+    <string name="difficulty">DIFFICULTY</string>
+    <string name="completed">COMPLETED</string>
+    <string name="equipment">EQUIPMENT</string>
+
+    <string name="trainer">TRAINER</string>
+
 </resources>
