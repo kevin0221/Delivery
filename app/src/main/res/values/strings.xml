@@ -15,4 +15,7 @@
 
     <string name="trainer">TRAINER</string>
 
+    <string name="comment_temp">Lorem ipsum dolor sit amet, conse ctetur adipis icing elit, sed ctetur adipis icing do eius mod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="rate_workout">Rate Workout</string>
 </resources>
