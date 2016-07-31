@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="BasicContentText">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/basic_black</item>
+    </style>
+
+    <style name="BigContentText">
+        <item name="android:textSize">@dimen/font_big</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/basic_black</item>
+    </style>
+
+    <style name="SmallContentText">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/basic_black</item>
+    </style>
+
+    <style name="LightContentText">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="BorderView">
+        <item name="android:background">@color/border_gray</item>
+        <item name="android:layout_marginLeft">@dimen/normal_margin</item>
+        <item name="android:layout_marginRight">@dimen/normal_margin</item>
+    </style>
+
 </resources>
