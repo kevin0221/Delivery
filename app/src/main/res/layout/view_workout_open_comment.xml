@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <RelativeLayout
+        android:id="@+id/view_comment_title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -13,8 +14,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textSize="12sp"
-            android:text="15 Comments"/>
+            android:text="15 Comments"
+            style="@style/BasicContentText"/>
 
         <ImageButton
             android:id="@+id/btn_comment_add"
@@ -26,14 +27,14 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:id="@+id/view_comment1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        style="@style/CommentBasicView">
+
         <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
+            android:id="@+id/img_comment_avatar1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/avatar1"
@@ -51,12 +52,14 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
                 <TextView
+                    android:id="@+id/lbl_comment_name1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="12sp"
                     android:textStyle="bold"
                     android:text="Emily Jameson"/>
                 <ImageView
+                    android:id="@+id/img_comment_rate1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -64,32 +67,34 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/txt_comment_content1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:textSize="10sp"
-                android:text="@string/comment_temp"/>
+                android:text="@string/comment_temp"
+                style="@style/SmallContentText"/>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/txt_comment_ago1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"
-            android:textSize="12sp"
             android:textAlignment="textEnd"
-            android:text="15 m"/>
+            android:text="15 m"
+            style="@style/BasicContentText"/>
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/view_comment2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        style="@style/CommentBasicView">
+
         <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
+            android:id="@+id/img_comment_avatar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/avatar2"
@@ -107,12 +112,14 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
                 <TextView
+                    android:id="@+id/lbl_comment_name2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="12sp"
                     android:textStyle="bold"
                     android:text="Johnny Chang"/>
                 <ImageView
+                    android:id="@+id/img_comment_rate2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -120,32 +127,33 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/txt_comment_content2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:textSize="10sp"
-                android:text="@string/comment_temp"/>
+                android:text="@string/comment_temp"
+                style="@style/SmallContentText"/>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/txt_comment_ago2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"
-            android:textSize="12sp"
             android:textAlignment="textEnd"
-            android:text="2 d"/>
+            android:text="2 d"
+            style="@style/BasicContentText"/>
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/view_comment3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        style="@style/CommentBasicView">
         <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
+            android:id="@+id/img_comment_avatar3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/avatar3"
@@ -163,12 +171,14 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
                 <TextView
+                    android:id="@+id/lbl_comment_name3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="12sp"
                     android:textStyle="bold"
                     android:text="Anthony Burton"/>
                 <ImageView
+                    android:id="@+id/img_comment_rate3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -176,20 +186,22 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/txt_comment_content3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:textSize="10sp"
-                android:text="@string/comment_temp"/>
+                android:text="@string/comment_temp"
+                style="@style/SmallContentText"/>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/txt_comment_ago3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"
-            android:textSize="12sp"
             android:textAlignment="textEnd"
-            android:text="1 w"/>
+            android:text="1 w"
+            style="@style/BasicContentText"/>
 
     </LinearLayout>
 </LinearLayout>

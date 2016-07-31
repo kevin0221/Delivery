@@ -21,6 +21,7 @@
         android:layout_marginRight="30dp">
 
         <LinearLayout
+            android:id="@+id/view_content_all"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -48,11 +49,13 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/view_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_margin="6dp">
                 <LinearLayout
+                    android:id="@+id/view_result_difficulty"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -61,16 +64,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
-                        android:text="@string/difficulty"/>
+                        android:text="@string/difficulty"
+                        style="@style/SmallContentText"/>
                     <TextView
+                        android:id="@+id/lbl_result_difficulty"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
-                        android:text="LEVEL 4"/>
+                        android:text="LEVEL 4"
+                        style="@style/BasicContentText"/>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/view_result_completed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -79,16 +84,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
-                        android:text="@string/completed"/>
+                        android:text="@string/completed"
+                        style="@style/SmallContentText"/>
                     <TextView
+                        android:id="@+id/lbl_result_completed"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
-                        android:text="1,347"/>
+                        android:text="1,347"
+                        style="@style/BasicContentText"/>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/view_result_equipment"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
@@ -97,22 +104,21 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
-                        android:text="@string/equipment"/>
+                        android:text="@string/equipment"
+                        style="@style/SmallContentText"/>
                     <TextView
+                        android:id="@+id/lbl_result_equipment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
-                        android:text="Treadmill, Elliptical, Bike"/>
+                        android:text="Treadmill, Elliptical, Bike"
+                        style="@style/BasicContentText"/>
                 </LinearLayout>
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGray"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"/>
+                style="@style/SmallBorderView"/>
 
             <LinearLayout
                 android:id="@+id/view_trainer"
@@ -128,18 +134,21 @@
                     android:gravity="center_vertical"
                     android:layout_weight="1">
                     <TextView
+                        android:id="@+id/lbl_trainer_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
-                        android:text="@string/trainer"/>
+                        android:text="@string/trainer"
+                        style="@style/SmallContentText"/>
                     <TextView
+                        android:id="@+id/lbl_trainer_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
-                        android:text="Emily Jameson"/>
+                        android:text="Emily Jameson"
+                        style="@style/BasicContentText"/>
                 </LinearLayout>
 
                 <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
+                    android:id="@+id/img_trainer_avatar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/avatar1"
@@ -149,9 +158,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorGray"
-                android:layout_marginLeft="14dp"
-                android:layout_marginRight="14dp"/>
+                style="@style/SmallBorderView"/>
 
             <LinearLayout
                 android:id="@+id/view_comments"

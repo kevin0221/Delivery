@@ -10,4 +10,9 @@
 
     <!-- Margins -->
     <dimen name="normal_margin">8dp</dimen>
+    <dimen name="small_margin">6dp</dimen>
+    <dimen name="large_margin">14dp</dimen>
+
+    <!-- Paddings -->
+    <dimen name="normal_padding">8dp</dimen>
 </resources>

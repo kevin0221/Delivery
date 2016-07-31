@@ -10,23 +10,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
-                android:id="@+id/txt_workout_title"
+                android:id="@+id/lbl_workout_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:text="@string/workout_title"/>
+                android:text="@string/workout_title"
+                style="@style/BigContentText"/>
+
             <TextView
+                android:id="@+id/lbl_workout_scheduled_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:text="@string/if_scheduled_date_here"/>
+                android:text="@string/if_scheduled_date_here"
+                style="@style/LightContentText"/>
+
         </LinearLayout>
+
         <ImageView
             android:id="@+id/img_workout_rate"
             android:layout_width="wrap_content"
@@ -34,27 +39,27 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="6dp"
             android:src="@drawable/star_rate4"/>
+
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/txt_workout_content"
+        android:id="@+id/lbl_workout_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="2dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:paddingBottom="8dp"
-        android:textSize="12sp"
-        android:text="@string/workout_content"/>
+        android:text="@string/workout_content"
+        style="@style/BasicContentText"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorGray"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"/>
+        style="@style/BasicBorderView"/>
 
     <LinearLayout
+        android:id="@+id/view_workout_parameters"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
@@ -63,28 +68,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:src="@drawable/calories"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginLeft="4dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="10sp"
-                    android:text="CALORIE BURN"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:text="2,567"/>
+                    android:text="CALORIE BURN"
+                    style="@style/SmallContentText"/>
+
+                <TextView
+                    android:id="@+id/lbl_calorie_burn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2,567"
+                    style="@style/BigContentText"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -92,28 +101,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:src="@drawable/stopwatch"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginLeft="4dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="10sp"
-                    android:text="@string/estimated_time"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:text="15:24"/>
+                    android:text="@string/estimated_time"
+                    style="@style/SmallContentText"/>
+
+                <TextView
+                    android:id="@+id/lbl_estimated_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15:24"
+                    style="@style/BigContentText"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -121,28 +134,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:src="@drawable/distance"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginLeft="4dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="10sp"
-                    android:text="@string/distance"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:text="2.2"/>
+                    android:text="@string/distance"
+                    style="@style/SmallContentText"/>
+
+                <TextView
+                    android:id="@+id/lbl_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.2"
+                    style="@style/BigContentText"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -150,28 +167,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:src="@drawable/elevation_rise"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginLeft="4dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="10sp"
-                    android:text="@string/elevation_gain"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:text="548"/>
+                    android:text="@string/elevation_gain"
+                    style="@style/SmallContentText"/>
+
+                <TextView
+                    android:id="@+id/lbl_elevation_gain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="548"
+                    style="@style/BigContentText"/>
+
             </LinearLayout>
         </LinearLayout>
 
