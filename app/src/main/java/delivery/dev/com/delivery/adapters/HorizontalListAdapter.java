@@ -58,9 +58,9 @@ public class HorizontalListAdapter extends BaseAdapter {
         imgThumb.setImageResource(picId);
 
         txtTitle.setText(data.get("title"));
-        txtDistance.setText(data.get("distance"));
-        txtBurn.setText(data.get("burn"));
-        txtElevation.setText(data.get("elevation"));
+        txtDistance.setText(data.get("distance") + " mi");
+        txtBurn.setText(data.get("burn") + " Cals");
+        txtElevation.setText(data.get("elevation") + " ft");
 
         return retval;
     }

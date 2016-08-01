@@ -80,4 +80,9 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="CardLayoutBorder">
+        <item name="android:background">@color/border_gray</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
 </resources>
