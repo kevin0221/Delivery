@@ -37,15 +37,21 @@
 
             <include layout="@layout/view_workout"/>
 
-            <!-- map view -->
+            <!-- map or included workout view view -->
             <LinearLayout
                 android:id="@+id/view_map"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="#dddddd">
+
+                <!--
                 <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/map_background"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/map_background"/>
+                -->
+                <include layout="@layout/view_included_workout" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -54,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_margin="6dp">
+
                 <LinearLayout
                     android:id="@+id/view_result_difficulty"
                     android:layout_width="match_parent"
@@ -61,11 +68,13 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:padding="8dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/difficulty"
                         style="@style/SmallContentText"/>
+
                     <TextView
                         android:id="@+id/lbl_result_difficulty"
                         android:layout_width="match_parent"
@@ -81,11 +90,13 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:padding="8dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/completed"
                         style="@style/SmallContentText"/>
+
                     <TextView
                         android:id="@+id/lbl_result_completed"
                         android:layout_width="match_parent"
@@ -101,11 +112,13 @@
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:padding="8dp">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/equipment"
                         style="@style/SmallContentText"/>
+
                     <TextView
                         android:id="@+id/lbl_result_equipment"
                         android:layout_width="match_parent"
@@ -127,18 +140,21 @@
                 android:gravity="center_vertical"
                 android:layout_margin="6dp"
                 android:padding="8dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center_vertical"
                     android:layout_weight="1">
+
                     <TextView
                         android:id="@+id/lbl_trainer_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/trainer"
                         style="@style/SmallContentText"/>
+
                     <TextView
                         android:id="@+id/lbl_trainer_name"
                         android:layout_width="match_parent"

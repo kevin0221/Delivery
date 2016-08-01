@@ -18,4 +18,11 @@
     <string name="comment_temp">Lorem ipsum dolor sit amet, conse ctetur adipis icing elit, sed ctetur adipis icing do eius mod tempor incididunt ut labore et dolore magna aliqua.</string>
 
     <string name="rate_workout">Rate Workout</string>
+
+    <string name="included_workouts">INCLUDED WORKOUTS</string>
+
+    <string name="item_distance">DISTANCE:</string>
+    <string name="item_burn">BURN:</string>
+    <string name="item_elevation_gain">ELEVATION GAIN:</string>
+
 </resources>

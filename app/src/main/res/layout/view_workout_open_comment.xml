@@ -46,18 +46,20 @@
             android:orientation="vertical"
             android:layout_marginLeft="6dp"
             android:layout_weight="1">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
+
                 <TextView
                     android:id="@+id/lbl_comment_name1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:text="Emily Jameson"/>
+                    android:text="Emily Jameson"
+                    style="@style/BasicBoldContentText"/>
+
                 <ImageView
                     android:id="@+id/img_comment_rate1"
                     android:layout_width="wrap_content"
@@ -73,6 +75,7 @@
                 android:layout_marginTop="6dp"
                 android:text="@string/comment_temp"
                 style="@style/SmallContentText"/>
+
         </LinearLayout>
 
         <TextView
@@ -106,18 +109,20 @@
             android:orientation="vertical"
             android:layout_marginLeft="6dp"
             android:layout_weight="1">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
+
                 <TextView
                     android:id="@+id/lbl_comment_name2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:text="Johnny Chang"/>
+                    android:text="Johnny Chang"
+                    style="@style/BasicBoldContentText"/>
+
                 <ImageView
                     android:id="@+id/img_comment_rate2"
                     android:layout_width="wrap_content"
@@ -152,6 +157,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         style="@style/CommentBasicView">
+
         <delivery.dev.com.delivery.cutomviews.AspectRatioImageView
             android:id="@+id/img_comment_avatar3"
             android:layout_width="match_parent"
@@ -165,18 +171,20 @@
             android:orientation="vertical"
             android:layout_marginLeft="6dp"
             android:layout_weight="1">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
+
                 <TextView
                     android:id="@+id/lbl_comment_name3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:text="Anthony Burton"/>
+                    android:text="Anthony Burton"
+                    style="@style/BasicBoldContentText"/>
+
                 <ImageView
                     android:id="@+id/img_comment_rate3"
                     android:layout_width="wrap_content"
@@ -192,6 +200,7 @@
                 android:layout_marginTop="6dp"
                 android:text="@string/comment_temp"
                 style="@style/SmallContentText"/>
+
         </LinearLayout>
 
         <TextView

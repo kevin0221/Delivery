@@ -7,6 +7,7 @@
     <dimen name="font_normal">12sp</dimen>
     <dimen name="font_small">11sp</dimen>
     <dimen name="font_big">16sp</dimen>
+    <dimen name="font_middle">14sp</dimen>
 
     <!-- Margins -->
     <dimen name="normal_margin">8dp</dimen>
