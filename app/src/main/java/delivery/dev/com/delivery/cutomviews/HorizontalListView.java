@@ -171,7 +171,6 @@ public class HorizontalListView extends AdapterView<ListAdapter> {
                 }
             });
         }
-
     }
 
     private void fillList(final int dx) {
