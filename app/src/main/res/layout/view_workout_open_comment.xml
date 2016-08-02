@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/txt_comments_count"
+            android:id="@+id/lbl_comments_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -69,7 +69,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_comment_content1"
+                android:id="@+id/lbl_comment_content1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
@@ -79,7 +79,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txt_comment_ago1"
+            android:id="@+id/lbl_comment_ago1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"
@@ -132,7 +132,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_comment_content2"
+                android:id="@+id/lbl_comment_content2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
@@ -141,7 +141,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txt_comment_ago2"
+            android:id="@+id/lbl_comment_ago2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"
@@ -194,7 +194,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txt_comment_content3"
+                android:id="@+id/lbl_comment_content3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
@@ -204,7 +204,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txt_comment_ago3"
+            android:id="@+id/lbl_comment_ago3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4.5"

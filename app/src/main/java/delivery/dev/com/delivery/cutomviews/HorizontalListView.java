@@ -1,9 +1,5 @@
 package delivery.dev.com.delivery.cutomviews;
 
-/**
- * Created by beauty on 8/1/16.
- */
-
 import java.util.LinkedList;
 import java.util.Queue;
 

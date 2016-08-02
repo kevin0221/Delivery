@@ -13,10 +13,6 @@ import java.util.HashMap;
 import delivery.dev.com.delivery.R;
 
 
-/**
- * Created by beauty on 8/1/16.
- */
-
 public class HorizontalListAdapter extends BaseAdapter {
 
     private ArrayList<HashMap<String, String>> dataObjects = new ArrayList<HashMap<String, String>>();
@@ -46,10 +42,10 @@ public class HorizontalListAdapter extends BaseAdapter {
         View retval = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_included_workout_item, null);
 
         ImageView imgThumb = (ImageView) retval.findViewById(R.id.img_thumbnail);
-        TextView txtTitle = (TextView)retval.findViewById(R.id.txt_included_workout_title);
-        TextView txtDistance = (TextView)retval.findViewById(R.id.txt_included_workout_distance);
-        TextView txtBurn = (TextView)retval.findViewById(R.id.txt_included_workout_burn);
-        TextView txtElevation = (TextView)retval.findViewById(R.id.txt_included_workout_elevation);
+        TextView txtTitle = (TextView)retval.findViewById(R.id.lbl_included_workout_title);
+        TextView txtDistance = (TextView)retval.findViewById(R.id.lbl_included_workout_distance);
+        TextView txtBurn = (TextView)retval.findViewById(R.id.lbl_included_workout_burn);
+        TextView txtElevation = (TextView)retval.findViewById(R.id.lbl_included_workout_elevation);
 
         HashMap<String, String> data = dataObjects.get(position);
 
@@ -61,6 +57,13 @@ public class HorizontalListAdapter extends BaseAdapter {
         txtDistance.setText(data.get("distance") + " mi");
         txtBurn.setText(data.get("burn") + " Cals");
         txtElevation.setText(data.get("elevation") + " ft");
+
+        retval.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         return retval;
     }

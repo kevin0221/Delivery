@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:orientation="vertical"
+    style="@style/IncludedWorkoutsView">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/included_workouts"
+        style="@style/BasicContentText"/>
+
+    <delivery.dev.com.delivery.cutomviews.HorizontalListView
+        android:id="@+id/list_included_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+    </delivery.dev.com.delivery.cutomviews.HorizontalListView>
+
+</LinearLayout>

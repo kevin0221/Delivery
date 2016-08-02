@@ -5,7 +5,7 @@
         jar="/Volumes/Data/Working/Delivery/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="62d955eebc575b637a1b18b9362d899e2c0375a2">
+        sha1="24720562c40e70ad8813dadf73cddfad483e30de">
         <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c023b145ad0712dbfccd1567a0bfdc302d370b4a/classes.dex" />
     </item>
     <item
@@ -26,7 +26,7 @@
         jar="/Volumes/Data/Working/Delivery/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="94ea77b9c159e589cc8ecc7892cbe5a2be2659df">
+        sha1="ce20c47bd21c38b9856e6e6d7cc64272737433eb">
         <dex dex="/Volumes/Data/Working/Delivery/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9736b6903709177c9b1c63288f751f5ee6e69f20/classes.dex" />
     </item>
     <item
